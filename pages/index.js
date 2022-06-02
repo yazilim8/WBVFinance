@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import About from '../components/About';
-import Section2 from '../components/Section2';
-import Section3 from '../components/Section3';
-import Section4 from '../components/Section4';
-import Section5 from '../components/Section5';
+import Sectiona from '../components/Sectiona';
+import Sectionb from '../components/Sectionb';
+import Sectionc from '../components/Sectionc';
+import Sectiond from '../components/Sectiond';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
@@ -29,10 +29,10 @@ export default function Home() {
           <Hero title={title} />
           <div style={{ maxWidth: '1440px', margin: '0 auto', marginBottom: '30px' }}>
             <About />
-            <Section2 />
-            <Section3 />
-            <Section4 />
-            <Section5 />
+            <Sectiona />
+            <Sectionb />
+            <Sectionc />
+            <Sectiond />
           </div>
           <Footer />
         </article>

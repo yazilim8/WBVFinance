@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 import { data } from '../dataObject';
-import Link from 'next/link';
 
 const Wrapper = styled.section`
   display: grid;

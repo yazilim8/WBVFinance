@@ -46,20 +46,20 @@ const Text = styled.p`
   }
 `;
 
-const Section4 = () => {
-  const { section4 } = data;
+const Sectionc = () => {
+  const { sectionc } = data;
 
   return (
-    <Wrapper id='section4'>
+    <Wrapper id='sectionc'>
       <Container>
-        <Image alt='logo' src='/imgs/section4.webp' width='500px' height='311px'/>
+        <Image alt='logo' src='/imgs/sectionc.webp' width='500px' height='311px'/>
       </Container>
       <Container right>
-        <Title>{section4.title}</Title>
-        <Text left dangerouslySetInnerHTML={{ __html: section4.content }} />
+        <Title>{sectionc.title}</Title>
+        <Text left dangerouslySetInnerHTML={{ __html: sectionc.content }} />
       </Container>
     </Wrapper>
   );
 };
 
-export default Section4;
+export default Sectionc;

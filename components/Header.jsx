@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import styled from 'styled-components';
-import Image from 'next/image';
 import { data } from '../dataObject';
 import { scrollTo } from './scroll';
 import MobileHeader from './MobileHeader';
+import Image from 'next/image'
 
 const Wrapper = styled.header`
   display: flex;
@@ -77,14 +77,14 @@ const Header = () => {
   return (
     <Wrapper>
       <LogoContainer>
-        <img
+        <Image
           className='logo-mob'
           alt=''
           src='/logomob.png'
           width='124px'
           height='11.55px'
         />
-        <img
+        <Image
           className='logo-web'
           alt=''
           src='/logoshortblack.png'

@@ -57,20 +57,20 @@ const LogoContainer = styled.div`
   }
 `;
 
-const Section3 = () => {
-  const { section3 } = data;
+const Sectionb = () => {
+  const { sectionb } = data;
 
   return (
-    <Wrapper id='section3'>
+    <Wrapper id='sectionb'>
       <Container left>
-        <Title>{section3.title}</Title>
-        <Text left dangerouslySetInnerHTML={{ __html: section3.content }} />
+        <Title>{sectionb.title}</Title>
+        <Text left dangerouslySetInnerHTML={{ __html: sectionb.content }} />
       </Container>
       <Container>
-        <Image alt='logo' src='/imgs/section3.jpg' width='500px' height='311px'/>
+        <Image alt='logo' src='/imgs/sectionb.jpg' width='500px' height='311px'/>
       </Container>
     </Wrapper>
   );
 };
 
-export default Section3;
+export default Sectionb;

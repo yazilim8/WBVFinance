@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 import { data } from '../dataObject';
-import Link from 'next/link';
 
 const Wrapper = styled.section`
   display: grid;
@@ -44,20 +43,20 @@ const Text = styled.p`
 
 
 
-const Section2 = () => {
-  const { section2 } = data;
+const Sectiona = () => {
+  const { sectiona } = data;
 
   return (
-    <Wrapper id='section2'>
+    <Wrapper id='sectiona'>
       <Container>
         <Image alt='logo' src='/imgs/section2.jpg' width='500px' height='311px'/>
       </Container>
       <Container right>
-        <Title>{section2.title}</Title>
-        <Text left dangerouslySetInnerHTML={{ __html: section2.content }} />
+        <Title>{sectiona.title}</Title>
+        <Text left dangerouslySetInnerHTML={{ __html: sectiona.content }} />
       </Container>
     </Wrapper>
   );
 };
 
-export default Section2;
+export default Sectiona;
