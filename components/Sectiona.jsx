@@ -49,7 +49,7 @@ const Sectiona = () => {
   return (
     <Wrapper id='sectiona'>
       <Container>
-        <Image alt='logo' src='/imgs/section2.jpg' width='500px' height='311px'/>
+        <Image alt='logo' src='/imgs/sectiona.jpg' width='500px' height='311px'/>
       </Container>
       <Container right>
         <Title>{sectiona.title}</Title>
