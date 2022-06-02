@@ -156,9 +156,8 @@ const Footer = () => {
 
             <ListItem onClick={() => scrollTo(index)} key={index}>{item.name}</ListItem>
           ))}
-          <ListItem><a href="/privacy-policy" style={{ color:'white', textDecoration:'none' }}>Privacy Policy</a></ListItem>
+          <ListItem><Link href="/privacy-policy"><a style={{ color:'white', textDecoration:'none' }}>Privacy Policy</a></Link></ListItem>
         </UnOrderedList>
-
 
         <ContactWrapper>
           {contact.map((item, index) => (

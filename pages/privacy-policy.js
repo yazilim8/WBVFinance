@@ -41,7 +41,7 @@ const str = `<!DOCTYPE html>
   Privacy Policy Generator.
 </p>
 <p><h2>Interpretation and Definitions<h2></p>
-<p><h3>Interpretation<h3></p>
+<p><h3>Interpretation</h3></p>
 <br>
 <p>
   The words of which the initial letter is capitalized have meanings defined
@@ -307,7 +307,7 @@ const str = `<!DOCTYPE html>
 <br>
 <p><h3>Use of Your Personal Data</h3></p>
 <br>
-<p>The Company may use Personal Data for the following purposes:</p>
+<p><h4>The Company may use Personal Data for the following purposes:</h4></p>
 <br>
 <p>
   To provide and maintain our Service, including to monitor the usage of our
@@ -353,7 +353,7 @@ const str = `<!DOCTYPE html>
   services, marketing and your experience.
 </p>
 <br>
-<p>We may share Your personal information in the following situations:</p>
+<p><h4>We may share Your personal information in the following situations:</h4></p>
 <br>
 <p>
   With Service Providers: We may share Your personal information with Service
