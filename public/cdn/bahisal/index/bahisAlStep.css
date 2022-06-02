@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bahisal-how-to-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(255, 255, 255, 0.746);
+  font-family: Poppins;
+}
+
+.bahisal-how-to-container .bahisal-how-to-mobile {
+  max-width: 380px;
+  width: 100%;
+height:4538px;
+}
+
+.bahisal-how-to-web {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .bahisal-how-to-container {
+    padding: 2rem;
+  }
+  .bahisal-how-to-mobile {
+    display: none;
+  }
+  .bahisal-how-to-web {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    gap: 30px;
+  }
+  .bahisal-how-to-web img {
+    max-width: 340px;
+    width: 100%;
+  }
+}
+
+.step-row-1, .step-row-2, .step-row-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+}
+
+.step-row-1 .step-2, .step-row-2 .step-2, .step-row-3 .step-2 {
+  max-height: 805px;
+  height: 805px;
+  margin-bottom: 39px;
+}
+
+.step-row-1 {
+  border-right: 30px solid #00a93f;
+  padding: 2rem 0;
+}
+
+.step-row-2 {
+  border-left: 30px solid #00a93f;
+  padding: 2rem 0;
+}
+
+.step-row-3 {
+  border-right: 30px solid #00a93f;
+  padding: 2rem 0;
+}
+
+.green-line:first-child {
+  margin-top: 4rem !important;
+}
+
+.green-line {
+  margin: -2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+  background: #00a93f;
+  height: 30px;
+}
+
+.green-line num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #00a93f;
+  font-size: 4rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.349);
+          box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.349);
+}
+
+.green-line i {
+  position: absolute;
+  font-size: 100px;
+  color: #fff;
+}
+
+.green-line .attention {
+  max-width: 250px;
+  position: absolute;
+}
+
+.green-line-1, .green-line-3 {
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.green-line-2 {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/*# sourceMappingURL=bahisAlStep.css.map */

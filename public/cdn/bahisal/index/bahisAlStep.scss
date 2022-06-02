@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.bahisal-how-to-container {
+    
+    display: flex;
+    justify-content: center;
+     background: rgba(255, 255, 255, 0.746);
+     font-family: Poppins;
+
+    .bahisal-how-to-mobile {
+        max-width: 100%;
+        width: 100%;
+    }
+
+}
+
+.bahisal-how-to-web {
+
+    display: none;
+
+}
+
+//Medias
+
+@media screen and (min-width:900px) {
+
+    .bahisal-how-to-container {
+
+        padding: 2rem;
+
+    }
+
+    .bahisal-how-to-mobile {
+        display: none;
+    }
+
+
+    .bahisal-how-to-web {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+
+
+        img {
+    
+          
+            max-width: 340px;
+            width: 100%;
+            
+           
+        }
+
+    
+    
+    }
+
+}
+
+.step-row-1 , .step-row-2, .step-row-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  
+    overflow: hidden;
+    
+
+    img {
+      
+    }
+
+    .step-2  {
+        max-height: 805px;
+        height: 805px;
+        margin-bottom: 39px;
+       
+    }
+}
+
+.step-row-1 {
+    border-right: 30px solid #00a93f;
+    padding: 2rem 0;
+}
+
+.step-row-2 {
+    border-left: 30px solid #00a93f;
+    padding: 2rem 0;
+}
+
+.step-row-3 {
+    border-right: 30px solid #00a93f;
+    padding: 2rem 0;
+}
+
+.green-line:first-child {
+    margin-top: 4rem !important;
+}
+.green-line {
+
+    
+    margin: -2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    background: #00a93f;
+    height: 30px;
+
+
+    num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #00a93f;
+        font-size: 4rem;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        font-weight: bold;
+        box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.349);
+
+    }
+
+    //Font awesome
+    i {
+        position: absolute;
+        font-size: 100px;
+       color:  #fff;
+
+    }
+
+    
+    .attention {
+        max-width: 250px;
+        position: absolute;
+    }
+
+    
+}
+
+.green-line-1, .green-line-3 {
+    
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.green-line-2 {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
