@@ -1,6 +1,4 @@
-import React from 'react'
-
-const str = `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1283,13 +1281,4 @@ const str = `<!DOCTYPE html>
 </div>
 
 </body>
-</html>`;
-class Page extends React.Component {
-  static async getInitialProps(ctx) {
-    ctx.res.setHeader('Content-type', 'text/html')
-    ctx.res.write(str);
-    ctx.res.end();
-  }
-}
-
-export default Page
+</html>
