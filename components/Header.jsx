@@ -80,14 +80,14 @@ const Header = () => {
         <Image
           className='logo-mob'
           alt=''
-          src='/logomob.png'
+          src='/imgs/logomob.png'
           width='124px'
           height='11.55px'
         />
         <Image
           className='logo-web'
           alt=''
-          src='/logoshortblack.png'
+          src='/imgs/logoshortblack.png'
           width='65px'
           height='76px'
         />

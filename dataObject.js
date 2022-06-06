@@ -110,7 +110,7 @@ module.exports.data = {
       text: 'Copyright © 2021 WBV FINANCE',
     },
     license: {
-      text: 'WBV FINANCE is the License Holder under License Number 8048/JAZ. Wincanyon Limited is the Payment Processor.',
+      text: 'WBV FINANCE',
     },
     privacy: {
       link: '/privacy-policy'

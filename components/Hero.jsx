@@ -37,7 +37,7 @@ const Hero = ({ title }) => {
       <Container>
         <Image
           alt='logo'
-          src='/logohero.png'
+          src='/imgs/logohero.png'
           width='228px'
           height='100px'
           objectFit='cover'

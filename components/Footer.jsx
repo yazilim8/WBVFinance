@@ -148,7 +148,7 @@ const Footer = () => {
   return (
     <Wrapper>
       <Padding>
-        <Image alt='' width='153px' height='67px' src={'/logoblack.png'} />
+        <Image alt='' width='153px' height='67px' src={'/imgs/logoblack.png'} />
 
 
         <UnOrderedList>
